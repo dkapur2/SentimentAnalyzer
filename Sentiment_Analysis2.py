@@ -62,7 +62,7 @@ st.markdown(
     }
     </style>
     <div class="top-right">
-        <a href="https://dkapur.com" target="_blank">Back</a>
+        <a href="https://dkapur.com">Back</a>
     </div>
     """,
     unsafe_allow_html=True
