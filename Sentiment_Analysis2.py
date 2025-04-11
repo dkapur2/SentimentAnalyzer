@@ -37,7 +37,7 @@ def train_model():
     return model, tokenizer
 
 # UI
-st.title("👍Sentence Sentiment Analyzer💁")
+st.title("🫶Sentence Sentiment Analyzer")
 st.write("Enter a sentence below to analyze its sentiment (Positive or Negative):")
 
 user_input = st.text_input("Enter Here:")
