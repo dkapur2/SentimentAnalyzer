@@ -48,21 +48,22 @@ st.markdown(
         right: 15px;
         z-index: 9999;
     }
-    .top-right a {
+    .top-right button {
         background-color: #f63366;
         color: white;
         padding: 6px 12px;
-        text-decoration: none;
+        border: none;
         border-radius: 6px;
         font-weight: bold;
         font-family: sans-serif;
+        cursor: pointer;
     }
-    .top-right a:hover {
+    .top-right button:hover {
         background-color: #e62e5c;
     }
     </style>
     <div class="top-right">
-        <a href="https://dkapur.com">Back</a>
+        <button onclick="window.history.back()">Back</button>
     </div>
     """,
     unsafe_allow_html=True
