@@ -1,6 +1,6 @@
-# ✨ Airline Tweet Sentiment Analysis
+# ✨ Sentence Sentiment Analysis
 
-This project performs sentiment analysis on airline-related tweets using an LSTM-based neural network built with TensorFlow and Keras.
+This project performs sentiment analysis on sentences using an LSTM-based neural network built with TensorFlow and Keras.
 
 ## 📊 Dataset
 
